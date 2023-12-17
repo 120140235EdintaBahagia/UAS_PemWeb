@@ -1,4 +1,4 @@
-Bagian Bonus: Hosting Aplikasi Web (Bobot: 20%)
+*Bagian Bonus: Hosting Aplikasi Web (Bobot: 20%)*
 Bagian bonus ini akan memberikan bobot tambahan 20% jika Anda berhasil meng-host aplikasi web yang Anda buat. Jawablah pertanyaan-pertanyaan berikut:
 
 (5%) Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
