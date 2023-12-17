@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>120140235_edintabahagia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Selamat Datang di Website Pendataan Mahasiswa</h1>
+    <h2>Data Mahasiswa</h2>
+    <div class="container">
+        <form id="studentForm" action="process.php" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+
+            <label for="age">Usia:</label>
+            <input type="number" id="age" name="age" min="17" max="99" required>
+            <br><br>
+
+            <label for="gender">Jenis Kelamin:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Laki-laki</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Perempuan</label>
+            <br><br>
+
+            <label for="major">Jurusan:</label>
+            <select id="major" name="major" required>
+                <option value="IT">Teknik Informatika</option>
+                <option value="CS">Ilmu Komputer</option>
+                <option value="SE">Sistem Informasi</option>
+            </select>
+            <br><br>
+
+            <label for="skills">Kemampuan:</label>
+            <input type="checkbox" id="html" name="skills[]" value="HTML">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="skills[]" value="CSS">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="js" name="skills[]" value="JavaScript">
+            <label for="js">JavaScript</label>
+            <br><br>
+
+            <input type="submit" value="Simpan">
+        </form>
+    </div>
+
+    <hr>
+</body>
+
+</html>
